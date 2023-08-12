@@ -1,4 +1,6 @@
-document.getElementById("icd-logo").addEventListener("click", gotoICD)
+// document.getElementById("icd-logo").addEventListener("click", gotoICD)
+
+var j = document.getElementById("icd-logo")
 document.getElementById("icd-name").addEventListener("click", gotoICD)
 document.getElementById("icd-sub").addEventListener("click", goto1420)
 

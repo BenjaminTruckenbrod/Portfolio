@@ -2,16 +2,12 @@ body {
     margin: 0px;
     background-color: black;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Source Sans 3', sans-serif;
+    -webkit-text-size-adjust: 100%;
 }
-
-#project-body{
-    background-color: black;
-    color: white;
-    font-family: 'Montserrat', sans-serif;}
 
 header {
     display: flex;
@@ -26,16 +22,18 @@ header {
     justify-content: space-between;
     list-style: none;
     max-width: 300px;
-}
-
-li, #my-name{
-    font-family: 'Montserrat', sans-serif;
+    min-width: 260px;
 }
 
 #my-name {
     font-size: 30px;
     letter-spacing: .5rem;
 }
+
+/* #my-name {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+} */
 
 a {
     text-decoration: none;
@@ -69,9 +67,10 @@ a {
 
 #about-me-container{
     display: flex;
-    max-height: 400px;
-    max-width: 100%;
+    height: 400px;
+    width: 100%;
     margin-bottom: 60px;
+
 }
 
 #about-me-long-container{
@@ -149,7 +148,6 @@ a {
 
 #proj-flex{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -168,7 +166,6 @@ a {
     display: flex;
     justify-content: center;
     flex: 1;
-    /* align-items: center; */
 }
 
 .calc-container{
@@ -286,4 +283,52 @@ footer {
     height: 50px;
     width: 100%;
     margin-top: auto;
+}
+
+@media screen and (max-width: 481px){
+
+#header-list {
+    flex-direction: column;
+}
+
+#about-me-container {
+    flex-direction: column;
+    font-size: 10px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#about-me{
+    width: 100%;
+}
+
+#crop-container {
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+
+#project-container{
+    width: 100%;
+}
+
+.proj{
+    flex-direction: column;
+    
+}
+
+.proj-summary {
+    flex-direction: column;
+}
+
+.proj-description {
+    font-size: 10px;
+}
+
+#highlights {
+    margin-left: 100px;
+}
+
 }
