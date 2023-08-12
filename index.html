@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="js/index.js" defer></script>
+    <script></script>
+    <title>index</title>
+</head>
+<body>
+    <header>
+        <div id="my-name">Benjamin Truckenbrod</div>
+        <ul id="header-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>    
+
+    <div id="about-me-container">
+        <div id="about-me">
+            <h3> About Me</h1>
+            <p>
+                I work for Pitt IT - Client Services at the University of Pittsburgh. I recieved my B.S. in Information Science from Pitt and was hired on as Staff member after graduation.
+                My interests are in technology, creativity, and human experience. 
+
+            <p>
+                Besides work I have many hobbies including biking, playing synthesizers, and traveling. Biking because I value excercise, synthesizers for creative expression, and traveling to get fresh perspectives.
+            </p>
+
+            <a id="read-more" href="about.html">Read More</a>
+
+
+        </div>
+        <div id="crop-container">
+            <img  id='headshot' src="resources/img/slugss-shoot.jpeg" alt="Picture of Benjamin Truckenbrod">
+        </div>
+
+        <div id="headshot-space"></div>
+
+        <!-- <img  id='headshot' src="resources/img/slugss-shoot.jpeg" alt="Picture of Benjamin Truckenbrod"> -->
+
+    </div>
+
+    <hr>
+
+    <div id="proj-flex">
+        <div id="project-container">
+            <h1>Project Highlights</h1>
+
+            <div class="proj">
+                <div class="proj-summary">
+                    <div>
+                        <p class="proj-name" id="icd-name">Ice Cream Dreams - Responsive Web Design</p>
+                        <p class="proj-subheading" id="icd-sub">User Centered Design</p>
+                    </div>
+                    <p class="proj-description">Utilized a style guide and mock-ups to
+                                                build a responsive webpage, translating concepts into HTML and CSS. 
+                                                Incorporated techniques to ensure cross-device compatibility and an 
+                                                engaging user experience.</p>
+                </div>
+                <div class="proj-img-container" id="icd-logo-container">
+                    <img class="proj-img" id="icd-logo" src="resources/img/ice-cream-dreams-logo-red.png" alt="Logo for ice cream dreams">
+                </div>
+            </div>
+
+            <div class="proj">
+                <div class="proj-summary">
+                    <div>
+                        <p class="proj-name" id="flyer-text">SLUGSS Show Flyer</p>
+                        <p class="proj-subheading slugss-bandcamp">SLUGSS</p>
+                    </div>
+                    <p>Created a flyer for a local concert. Utilized photoshop to digital craft flyer finishing with a vcr effect. </p>
+                </div>
+                <div class="proj-img-container">
+                    <img class="proj-img" id="flyer-img" src="resources/img/slugss-fhw-itit.jpeg" alt="Flyer for a local concert">
+                </div>
+            </div>
+
+
+            <div class="proj" id="last-proj-on-index">
+            <div class="proj-summary">
+                <div>
+                    <p class="proj-name" id="search-engine-text">Covid-19 Search Engine Prototype</p>
+                    <p class="proj-subheading" id="INFSCI-1560">Information Storage and Retrieval</p>
+                </div>
+                <p>Crafted a Covid-19 search engine that efficiently retrieves scientific articles based on user queries. 
+                    Leveraged Python packages, including Whoosh and Tinter, and implemented retrieval models like Boolean 
+                    and query likelihood with Dirichlet smoothing for results. <a id="covid-19-repo" href="https://github.com/krbuettner/covid19_search_engine_prototype">Code repo hosted on Github.</a></p>
+            </div>
+            <div class="proj-img-container">
+                <img class="proj-img" id="search-engine-img" src="resources/img/covid-19-search-engine.png" alt="video presentation of project building a search engine for covid-19">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects-button-container"><a id="more-projects" href="projects.html">More Projects</a></div>
+
+
+
+</body>
+</html>

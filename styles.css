@@ -1,0 +1,289 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#project-body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
+}
+
+#header-list {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 300px;
+}
+
+li, #my-name{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#my-name {
+    font-size: 30px;
+    letter-spacing: .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#blackhole:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'The Beardy Display';
+    src: url("resources/fonts/webfontkit-the-beardy-display/the_beardy_display-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'OCR A';
+    src: url("resources/fonts/webfontkit-OCR-A/ocr_a_std_regular-webfont.woff") format("woff");
+}
+
+#about-me{
+    padding: 20px;
+    padding-left: 75px;
+    font-size: 20px;
+}
+
+#about-me-long{
+    padding: 20px;
+    padding-left: 75px;
+}
+
+#about-me-container{
+    display: flex;
+    max-height: 400px;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+#about-me-long-container{
+    display: flex;
+    max-height: 1100px;
+    max-width: 100%;
+    align-items: flex-start;
+}
+
+#crop-container {
+    width: 33%;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+#headshot{
+    height: auto;
+    object-position: top;
+    margin-left: -250px;
+    margin-bottom: -280px;
+    transform: scale(0.60); 
+}
+
+#headshot-2{
+    height: auto;
+    object-position: top;
+    margin-left: -80px;
+    margin-bottom: -100px;
+    transform: scale(0.80); 
+}
+
+#headshot-space{
+    min-width: 30px;
+}
+
+#about-me{
+    width: 66%;
+}
+
+#read-more {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+
+}
+
+#read-more:hover {
+    background-color: white;
+    border-color:  black;
+    color:  black;
+    transition: all .4s ease;
+}
+
+#resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#resume {
+    align-items: center;
+    justify-content: center;
+}
+
+#proj-flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#project-container {
+    width: 70%;
+}
+
+.proj-img-container{
+    max-height: 275px;
+    max-width: 275px;
+    background-color: #FAFCE7;
+    border-style: solid;
+    border-color: black;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    /* align-items: center; */
+}
+
+.calc-container{
+    max-height: 275px;
+    max-width: 275px;
+    background-color: #FAFCE7;
+    border-style: solid;
+    border-color: black;
+    object-fit: contain;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    /* align-items: center; */
+}
+
+.calc-container img{
+    object-fit: contain;
+    width: 100%;    
+    background-color: black;
+}
+
+.proj-img-container img{
+    width: 100%;
+    height: auto;
+
+}
+
+#icd-logo-container {
+    /* padding: 10px; */
+}
+
+#icd-logo {
+/* padding: 5px; */
+transform: scale(0.84); 
+}
+
+.proj {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    align-items: center;
+    /* font-family: 'OCR A'; */
+}
+
+.proj-name:hover {
+text-decoration: underline;
+transition: all .4s ease;
+}
+
+.proj-name {
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.proj-subheading{
+    margin-top: 0px;
+}
+
+.proj-subheading:hover{
+    text-decoration: underline;
+}
+
+.proj-summary{
+    font-size: 20px;
+    /* flex: 1; */
+    margin-right: 20px;
+    width: 50%;
+}
+
+.proj-description {
+    font-size: 20px;
+}
+
+#covid-19-repo:hover {
+    text-decoration: underline;
+}
+
+#more-projects {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+}
+
+#more-projects:hover {
+    color: black;
+    background-color: white;
+}
+
+#projects-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#last-proj-on-index {
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+}
