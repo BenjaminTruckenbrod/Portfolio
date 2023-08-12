@@ -25,6 +25,10 @@ header {
     min-width: 260px;
 }
 
+#header-list:hover {
+    cursor:grab;
+}
+
 #my-name {
     font-size: 30px;
     letter-spacing: .5rem;
@@ -34,6 +38,16 @@ header {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 12px;
 } */
+
+li { 
+    transition: all .4s ease-in-out; 
+    }
+
+/* li:hover {
+    transform: scale(1.05); ;
+} */
+
+
 
 a {
     text-decoration: none;
@@ -55,9 +69,10 @@ a {
 }
 
 #about-me{
-    padding: 20px;
+    padding-right: 20px;
     padding-left: 75px;
     font-size: 20px;
+    min-width: 507px;
 }
 
 #about-me-long{
@@ -151,8 +166,10 @@ a {
     justify-content: center;
 }
 
+
+
 #project-container {
-    width: 70%;
+    width: 55%;
 }
 
 .proj-img-container{
@@ -203,12 +220,27 @@ a {
 transform: scale(0.84); 
 }
 
+#projects-header-text {
+    font-size: 20px;
+    margin-left: 72px;
+}
+
+.header-text {
+    font-size: 22px;
+    margin-left: 73px;
+    margin-top: 19px;
+}
+
 .proj {
     display: flex;
     justify-content: space-between;
     margin-bottom: 110px;
     align-items: center;
     /* font-family: 'OCR A'; */
+}
+
+.proj-index{
+    margin-bottom: 30px;
 }
 
 .proj-name:hover {
@@ -285,7 +317,20 @@ footer {
     margin-top: auto;
 }
 
+#my-initials {
+    display: none;
+}
+
 @media screen and (max-width: 481px){
+
+#my-initials {
+    display: block;
+    font-size: 34px;
+}
+
+#my-name {
+    display: none;
+}
 
 #header-list {
     flex-direction: column;
@@ -297,12 +342,21 @@ footer {
     height: auto;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    margin-top: 0px;
     
 }
 
 #about-me{
     width: 100%;
+    padding: 0px;
+    min-width: 0px;
+    /* margin-left: 10px; */
 }
+/* 
+#about-me-container{
+
+} */
 
 #crop-container {
     width: 100%;
@@ -316,6 +370,7 @@ footer {
 
 .proj{
     flex-direction: column;
+    margin-bottom: 20px;
     
 }
 
@@ -323,12 +378,30 @@ footer {
     flex-direction: column;
 }
 
-.proj-description {
+/* .proj-description {
     font-size: 10px;
+} */
+
+.proj-description {
+    display: none;
 }
 
 #highlights {
     margin-left: 100px;
+}
+
+header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    margin-bottom: 0px;
+    /* height: 130px; */
+    /* padding-left: 0px; */
+}
+
+#header-list {
+    padding-left: 0px;
+    margin: 0px;
 }
 
 }
