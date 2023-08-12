@@ -156,10 +156,10 @@ a {
 
 }
 
-#resume {
+/* #resume {
     align-items: center;
     justify-content: center;
-}
+} */
 
 #proj-flex{
     display: flex;
@@ -211,6 +211,11 @@ a {
 
 }
 
+.center-wrap{
+    display: flex;
+    justify-content: center;
+}
+
 #icd-logo-container {
     /* padding: 10px; */
 }
@@ -220,15 +225,19 @@ a {
 transform: scale(0.84); 
 }
 
+#resume-container-embed {
+    display: none;
+}
+
 #projects-header-text {
     font-size: 20px;
     margin-left: 72px;
 }
 
 .header-text {
-    font-size: 22px;
-    margin-left: 73px;
-    margin-top: 19px;
+    font-size: 28px;
+    /* margin-left: 73px;
+    margin-top: 19px; */
 }
 
 .proj {
@@ -323,6 +332,7 @@ footer {
 
 @media screen and (max-width: 481px){
 
+
 #my-initials {
     display: block;
     font-size: 34px;
@@ -402,6 +412,14 @@ header {
 #header-list {
     padding-left: 0px;
     margin: 0px;
+}
+
+#resume-container{
+    display: none;
+}
+
+#resume-container-embed{
+    display: block;
 }
 
 }
