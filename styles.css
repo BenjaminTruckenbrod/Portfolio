@@ -483,8 +483,20 @@ footer {
     text-align: left;
 }
 
+.proj-name{
+    text-align: center;
+}
+
+.proj-subheading{
+    text-align: center
+}
+
+.proj-description {
+    /* text-align: justify; */
+}
+
 .extra-div {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
