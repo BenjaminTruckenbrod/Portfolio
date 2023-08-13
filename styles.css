@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     font-family: 'Source Sans 3', sans-serif;
     -webkit-text-size-adjust: 100%;
+    width: 100%;
 }
 
 header {
@@ -29,25 +30,18 @@ header {
     cursor:grab;
 }
 
+.proj-name:hover, .proj-subheading:hover, .proj-img-container:hover{
+    cursor:pointer;
+}
+
 #my-name {
     font-size: 30px;
     letter-spacing: .5rem;
 }
 
-/* #my-name {
-    font-family: 'Source Sans 3', sans-serif;
-    font-size: 12px;
-} */
-
 li { 
     transition: all .4s ease-in-out; 
-    }
-
-/* li:hover {
-    transform: scale(1.05); ;
-} */
-
-
+}
 
 a {
     text-decoration: none;
@@ -73,6 +67,8 @@ a {
     padding-left: 75px;
     font-size: 20px;
     min-width: 507px;
+    width: 66%;
+    flex: 1;
 }
 
 #about-me-long{
@@ -121,32 +117,7 @@ a {
 }
 
 #headshot-space{
-    min-width: 30px;
-}
-
-#about-me{
-    width: 66%;
-}
-
-#read-more {
-    display: flex;
-    height: 40px;
-    width: 150px;
-    color: white;
-    border-style: solid;
-    border-color: white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-
-}
-
-#read-more:hover {
-    background-color: white;
-    border-color:  black;
-    color:  black;
-    transition: all .4s ease;
+    min-width: 75px;
 }
 
 #resume-container {
@@ -285,7 +256,29 @@ transition: all .4s ease;
     text-decoration: underline;
 }
 
+#read-more {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease;
+
+}
+
+#read-more:hover {
+    background-color: white;
+    border-color:  black;
+    color:  black;
+    transition: all .4s ease;
+}
+
 #more-projects {
+    font-size: 20px;
     display: flex;
     height: 40px;
     width: 150px;
@@ -353,20 +346,20 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 20px;
-    margin-top: 0px;
-    
+    margin-top: 0px; 
+
 }
 
 #about-me{
     width: 100%;
     padding: 0px;
     min-width: 0px;
-    /* margin-left: 10px; */
-}
-/* 
-#about-me-container{
 
-} */
+}
+
+#read-more{
+    margin:auto
+}
 
 #crop-container {
     width: 100%;
