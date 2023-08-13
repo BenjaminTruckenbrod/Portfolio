@@ -1,6 +1,9 @@
 body {
     margin: 0px;
-    background-color: black;
+    background-color: #353A34;
+    /* background-color: rgb(64, 64, 64); */
+    /* background-color: black; */
+
     /* background-color:; */
     color: white;
     min-height: 100vh;
@@ -17,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 20px;
     align-items: baseline;
     width: 90%;
@@ -299,11 +302,12 @@ transition: all .4s ease;
 .proj-name {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .proj-subheading{
     margin-top: 0px;
+    font-size: 24px;
 }
 
 .proj-subheading:hover{
