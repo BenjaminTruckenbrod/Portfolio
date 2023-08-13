@@ -24,6 +24,7 @@ header {
     margin-top: 20px;
     align-items: baseline;
     width: 90%;
+
 }
 
 #header-list {
@@ -432,7 +433,9 @@ footer {
     text-align: center;
 }
 
-
+#project-container-index {
+    width: 90%;
+}
 
 #about-me{
     width: 100%;
@@ -475,8 +478,14 @@ footer {
 
 .proj-summary {
     flex-direction: column;
-    margin-right: 0px;
+    margin: auto;
     width: 85%;
+    text-align: left;
+}
+
+.extra-div {
+    width: 80%;
+    margin: auto;
 }
 
 /* .proj-description {
@@ -494,6 +503,7 @@ header {
     margin: auto;
     width: 95%;
     margin-top:10px;
+    align-items: center;
 }
 
 #header-list {
