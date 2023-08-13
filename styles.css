@@ -10,6 +10,8 @@ body {
     width: 100%;
 }
 
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -103,6 +105,17 @@ a {
     overflow: hidden;
 }
 
+#crop-container-2 {
+    width: 33%;
+    overflow: hidden;
+    margin-top: 20px;
+    /* object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden; */
+}
+
 #headshot{
     height: auto;
     object-position: top;
@@ -114,9 +127,13 @@ a {
 #headshot-2{
     height: auto;
     object-position: top;
+    /* margin-left: -80px;
+    margin-bottom: -100px; */
+
     margin-left: -80px;
-    margin-bottom: -100px;
-    transform: scale(0.80); 
+    margin-top: -100px;
+
+    /* transform: scale(0.80);  */
 }
 
 #headshot-space{
@@ -143,7 +160,11 @@ a {
 
 
 #project-container {
-    width: 55%;
+    width: 60%;
+}
+
+#project-container-index {
+    width: 86.6%;
 }
 
 .proj-img-container{
@@ -171,6 +192,19 @@ a {
     justify-content: center;
     flex: 1;
     /* align-items: center; */
+}
+
+hr {
+    display: none;
+}
+
+/* .center-wrap{
+    display: none;
+} */
+
+.show{
+    display: block;
+    width:90%;
 }
 
 .calc-container img{
@@ -310,6 +344,7 @@ hr {
     width: 50%;
     margin: auto;
     margin-bottom: 20px;
+    display: none;
 }
 
 #last-proj-on-index {
@@ -325,6 +360,8 @@ footer {
 #my-initials {
     display: none;
 }
+
+
 
 @media screen and (max-width: 481px){
 
@@ -355,6 +392,12 @@ footer {
 
 }
 
+#about{
+    text-align: center;
+}
+
+
+
 #about-me{
     width: 100%;
     padding: 0px;
@@ -366,6 +409,7 @@ footer {
 
 #about-me-long-container{
     height:auto;
+    display: block;
 }
 
 #about-me-text{
@@ -404,7 +448,9 @@ footer {
 } */
 
 #highlights {
-    margin-left: 100px;
+    /* width: 90%;
+    margin: auto; */
+    text-align: center;
 }
 
 header {
@@ -423,6 +469,12 @@ hr {
     width: 90%;
     margin: auto;
     margin-bottom: 10px;
+    display: block;
+}
+
+#crop-container-2 {
+    display: none;
+
 }
 
 
