@@ -15,7 +15,6 @@ body {
 }
 
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -195,15 +194,17 @@ a {
     background-color: black;
     border-style: solid;
     border-color: black;
-    /* object-fit: contain; */
     overflow: hidden;
-    /* display: flex; */
     justify-content: center;
     flex: 1;
 }
 
 .extra-div{
     width: 45%;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .calc-container{
