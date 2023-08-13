@@ -86,9 +86,12 @@ a {
 
 #about-me-long-container{
     display: flex;
-    max-height: 1100px;
+    /* max-height: 1100px; */
+    height: auto;
     max-width: 100%;
     align-items: flex-start;
+    width:90%;
+    margin: auto;
 }
 
 #crop-container {
@@ -325,19 +328,21 @@ footer {
 
 @media screen and (max-width: 481px){
 
-
 #my-initials {
     display: block;
     font-size: 34px;
 }
 
 #my-name {
-    display: none;
+    margin-bottom: 10px;
+    text-align : center;
+    font-size: 25px;
 }
 
-#header-list {
-    flex-direction: column;
-}
+/* header-text {
+    margin:auto;
+} */
+
 
 #about-me-container {
     flex-direction: column;
@@ -345,7 +350,7 @@ footer {
     height: auto;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    /* margin: 20px; */
     margin-top: 0px; 
 
 }
@@ -353,8 +358,19 @@ footer {
 #about-me{
     width: 100%;
     padding: 0px;
-    min-width: 0px;
+    min-width: 0;
+    margin: auto;
 
+
+}
+
+#about-me-long-container{
+    height:auto;
+}
+
+#about-me-text{
+    width:90%;
+    margin: auto;
 }
 
 #read-more{
@@ -379,15 +395,13 @@ footer {
 
 .proj-summary {
     flex-direction: column;
+    margin-right: 0px;
+    width: 85%;
 }
 
 /* .proj-description {
-    font-size: 10px;
-} */
-
-.proj-description {
     display: none;
-}
+} */
 
 #highlights {
     margin-left: 100px;
@@ -395,17 +409,23 @@ footer {
 
 header {
     flex-direction: column;
-    align-items: flex-start;
-    margin: 20px;
-    margin-bottom: 0px;
-    /* height: 130px; */
-    /* padding-left: 0px; */
+    margin: auto;
+    width: 95%;
+    margin-top:10px;
 }
 
 #header-list {
     padding-left: 0px;
     margin: 0px;
 }
+
+hr {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
 
 /* #resume-container{
     display: none;
