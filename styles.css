@@ -270,6 +270,8 @@ transform: scale(0.84);
 
 .header-text {
     font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 45px;
     /* margin-left: 73px;
     margin-top: 19px; */
 }
