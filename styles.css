@@ -35,6 +35,7 @@ header {
     max-width: 300px;
     min-width: 260px;
     font-size: 20px;
+    /* margin-bottom: 0px; */
 }
 
 #header-list:hover {
@@ -326,6 +327,17 @@ transition: all .4s ease;
     text-decoration: underline;
 }
 
+.trans-button{
+    transition: all .4s ease;
+}
+
+.trans-button:hover{
+    background-color: white;
+    border-color:#353A34;
+    color:#353A34;
+    transition: all .4s ease;
+}
+
 #read-more {
     display: flex;
     height: 40px;
@@ -409,10 +421,16 @@ footer {
     font-size: 25px;
 }
 
-/* header-text {
-    margin:auto;
-} */
+.header-text {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+#doggy{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
 
 #about-me-container {
     flex-direction: column;
@@ -483,11 +501,13 @@ footer {
 }
 
 .proj-subheading{
-    text-align: center
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .proj-description {
-    /* text-align: justify; */
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 .extra-div {
@@ -525,7 +545,7 @@ header {
 hr {
     width: 90%;
     margin: auto;
-    margin-top: 0px;
+    margin-top:8px;
     margin-bottom: 10px;
     display: block;
 }
@@ -544,6 +564,10 @@ hr {
 #resume-container{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+#less-margin{
+    margin-top: 2px;
 }
 
 /* #resume-container-embed{
