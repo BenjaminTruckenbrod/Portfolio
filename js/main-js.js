@@ -5,8 +5,7 @@ document.getElementById("pizza").addEventListener("click", gotoFigma)
 document.getElementById("pizza-name").addEventListener("click", gotoFigma)
 
 document.getElementById("slugss-ep").addEventListener("click", gotoSlugssEP)
-document.getElementById("slugss-ep").addEventListener("click", gotoSlugssEP)
-
+document.getElementById("second-one-second-name").addEventListener("click", gotoSlugssEP)
 
 document.getElementById("Sun-Sign").addEventListener("click", gotoSunSign)
 document.getElementById("sun-sign-ep").addEventListener("click", gotoSunSign)

@@ -17,3 +17,11 @@ function gotoSearchEngineVid() {
     window.open("resources/video/1560-video.mp4", "_blank")
 
 }
+
+document.getElementById("appeal-trailer-text").addEventListener("click", gotoSlugVid)
+document.getElementById("appeal-trailer-img").addEventListener("click", gotoSlugVid)
+
+function gotoSlugVid() {
+    window.open("https://www.instagram.com/p/Bjh4aaegXFg/", "_blank")
+
+}
