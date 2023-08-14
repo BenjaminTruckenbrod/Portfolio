@@ -515,8 +515,10 @@ header {
     align-items: center;
     min-width: 0;
     margin-bottom: 0px;
+}
 
-
+#about-me-text {
+    margin-bottom: 30px
 }
 
 #header-list {
