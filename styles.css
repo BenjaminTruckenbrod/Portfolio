@@ -2,7 +2,7 @@ body {
     margin: 0px;
     background-color: #353A34;
     color: white;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     font-family: 'Source Sans 3', sans-serif;
