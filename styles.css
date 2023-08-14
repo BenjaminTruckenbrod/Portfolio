@@ -31,7 +31,6 @@ header {
     max-width: 300px;
     min-width: 260px;
     font-size: 20px;
-    /* margin-bottom: 0px; */
 }
 
 #header-list:hover {
@@ -47,7 +46,6 @@ header {
     padding: 10px;
     border-style: solid;
     border-color: white;
-    /* letter-spacing: .5rem; */
 }
 
 li { 
@@ -83,7 +81,6 @@ a {
 
 #about-me{
     padding-right: 20px;
-    /* padding-left: 75px; */
     font-size: 20px;
     min-width: 507px;
     width: 66%;
@@ -106,7 +103,6 @@ a {
 
 #about-me-long-container{
     display: flex;
-    /* max-height: 1100px; */
     height: auto;
     max-width: 100%;
     align-items: flex-start;
@@ -127,11 +123,6 @@ a {
     width: 33%;
     overflow: hidden;
     margin-top: 20px;
-    /* object-fit: cover;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden; */
 }
 
 #headshot{
@@ -145,13 +136,8 @@ a {
 #headshot-2{
     height: auto;
     object-position: top;
-    /* margin-left: -80px;
-    margin-bottom: -100px; */
-
     margin-left: -80px;
     margin-top: -100px;
-
-    /* transform: scale(0.80);  */
 }
 
 #headshot-space{
@@ -205,8 +191,15 @@ a {
 
 #calculator-img{
     max-height: 275px;
-    /* max-width: 100%; */
     width: auto;
+    align-self: center;
+}
+
+#calc-flex{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .underline{
@@ -223,10 +216,6 @@ hr {
     text-align: center;
     margin: auto;
 }
-
-/* .center-wrap{
-    display: none;
-} */
 
 .show{
     display: block;
@@ -316,8 +305,6 @@ transition: all .4s ease;
 
 .proj-summary{
     font-size: 20px;
-    /* flex: 1; */
-    /* margin-right: 20px; */
     width: 45%;
     text-align: right;
 }
@@ -519,16 +506,6 @@ footer {
     margin: auto;
 }
 
-/* .proj-description {
-    display: none;
-} */
-/* 
-h1 #highlights{
-    font-size: 100px;
-} */
-
-
-
 header {
     flex-direction: column;
     margin: auto;
@@ -559,12 +536,6 @@ hr {
 
 }
 
-#resume {
-    /* transform: scale(0.3);
-    align-self: flex-start; */
-}
-
-
 #resume-container{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -573,10 +544,6 @@ hr {
 #less-margin{
     margin-top: 2px;
 }
-
-/* #resume-container-embed{
-    display: block;
-} */
 
 .proj-divider{
     width: 80%;
