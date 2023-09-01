@@ -87,6 +87,22 @@ a {
     flex: 1;
 }
 
+.icon{
+    width: 50px;
+    margin: 12.5px;
+    margin-top: 20px;
+    display: inline;
+    border-radius: 10%;
+}
+
+#linkedin{
+    background-color: white;
+}
+
+#github{
+
+}
+
 #about-me-long{
     padding: 20px;
     padding-left: 75px;
@@ -551,6 +567,19 @@ hr {
 
 .proj-divider{
     width: 80%;
+}
+
+#icons{
+    width: 39%;
+    margin: auto;
+}
+
+#github{
+    margin-left: 0px;
+}
+
+#linkedin{
+    margin-right: 0px;
 }
 
 }
