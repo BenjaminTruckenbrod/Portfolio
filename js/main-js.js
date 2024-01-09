@@ -23,6 +23,9 @@ document.getElementById("flyer-img").addEventListener("click", gotoFlyer)
 document.getElementById("search-engine-img").addEventListener("click", gotoSearchEngineVid)
 document.getElementById("search-engine-text").addEventListener("click", gotoSearchEngineVid)
 
+document.getElementById("fr-img").addEventListener("click", gotoFR)
+document.getElementById("fr-text").addEventListener("click", gotoFR)
+
 
 function gotoICD() {
     window.open("https://benjamintruckenbrod.github.io/Ice-Cream-Dreams/", "_blank")
@@ -58,5 +61,10 @@ function gotoFlyer() {
 
 function gotoSearchEngineVid() {
     window.open("resources/video/1560-video.mp4", "_blank")
+
+}
+
+function gotoFR() {
+    window.open("https://freeridepgh.org")
 
 }
