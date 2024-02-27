@@ -1,13 +1,16 @@
 body {
     margin: 0px;
-    background-color: #353A34;
+    background-color: #647b7d;
     color: white;
     /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: "EB Garamond", serif;
     -webkit-text-size-adjust: 100%;
     width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    min-width: 1055px;
 }
 
 
@@ -15,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-top: 20px;
     align-items: baseline;
     width: 90%;
@@ -23,7 +26,11 @@ header {
 
 }
 
-#header-list {
+.projects-header-height{
+    margin-bottom:40px; 
+}
+
+#header-list { 
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -42,10 +49,14 @@ header {
 }
 
 #my-name {
-    font-size: 50px;
+    max-width: 577px;
+    font-size: 75px;
     padding: 10px;
-    border-style: solid;
-    border-color: white;
+    border-style: none;
+    letter-spacing: .3rem;
+    font-family: "futurand-bold";
+    /* font-weight: 400; */
+    font-style: normal;
 }
 
 li { 
@@ -79,17 +90,64 @@ a {
     src: url("resources/fonts/webfontkit-OCR-A/ocr_a_std_regular-webfont.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'Luminari';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Luminari'), url('Luminari-Regular.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'brandon_grotesqueregular';
+    src: url('brandon_reg-webfont.woff2') format('woff2'),
+    url('brandon_reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+    }
+
+@font-face {
+    font-family: 'futurand-bolduploaded_file';
+    src: url('futura-nd-bold-webfont.woff2') format('woff2'),
+            url('futura-nd-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minion_procaption';
+    src: url('minionpro-capt-webfont.woff2') format('woff2'),
+         url('minionpro-capt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.eb-garamond-2 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.paragraph-text{
+    font-family: 'minion_procaption';
+}
+
 #about-me{
     padding-right: 20px;
     font-size: 20px;
     min-width: 507px;
-    width: 66%;
+    max-width: 500px;
+    min-width: 500px;
     flex: 1;
 }
 
 .icon{
-    width: 50px;
-    margin: 12.5px;
+    width: 30px;
+    margin: 7px;
     margin-top: 20px;
     display: inline;
     border-radius: 10%;
@@ -100,7 +158,7 @@ a {
 }
 
 #github{
-
+margin-left: 0px;
 }
 
 #about-me-long{
@@ -110,10 +168,11 @@ a {
 
 #about-me-container{
     display: flex;
-    height: 550px;
+    height: 525px;
     width: 90%;
     margin: auto;
-    margin-bottom: 60px;
+    justify-content: space-between;
+    /* margin-bottom: 60px; */
 
 }
 
@@ -121,13 +180,14 @@ a {
     display: flex;
     height: auto;
     max-width: 100%;
-    align-items: flex-start;
-    width:90%;
+    /* align-items: center; */
+    /* width:90%; */
+    justify-content: center;
     margin: auto;
 }
 
 #crop-container {
-    width: 33%;
+    width: 430px;
     object-fit: cover;
     position: relative;
     display: flex;
@@ -146,7 +206,7 @@ a {
     height: auto;
     object-position: top;
     margin-left: -250px;
-    margin-bottom: -280px;
+    margin-bottom: -175px;
     transform: scale(0.60); 
 }
 
@@ -195,9 +255,9 @@ a {
 .proj-img-container{
     max-height: 275px;
     max-width: 275px;
-    background-color: #353A34;
+    background-color: #647b7d;
     border-style: solid;
-    border-color: #353A34;
+    border-color: #647b7d;
     overflow:visible;
 }
 
@@ -276,7 +336,7 @@ transform: scale(0.84);
 }
 
 .header-text {
-    font-size: 80px;
+    font-size: 50px;
     margin-top: 30px;
     margin-bottom: 45px;
     /* margin-left: 73px;
@@ -347,22 +407,22 @@ transition: all .4s ease;
 
 #read-more {
     display: flex;
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 100px;
     color: white;
     border-style: solid;
     border-color: white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+
+    justify-content: left;
     transition: all .4s ease;
+    border-width: 0px;
 
 }
 
 #read-more:hover {
-    background-color: white;
-    border-color:  black;
-    color:  black;
+    /* background-color: white; */
+    border-color:  #647b7d;
+    color:  #acd9dd;
     transition: all .4s ease;
 }
 
@@ -413,9 +473,20 @@ footer {
     display: none;
 }
 
-
+/* .crop-container-mobile{
+    display:none
+} */
 
 @media screen and (max-width: 481px){
+
+    .crop-container-mobile{
+        display:flex;
+        height: 300px;
+    }
+
+body{
+    min-width: 0% ;
+}    
 
 #my-initials {
     display: block;
@@ -426,6 +497,7 @@ footer {
     margin-bottom: 10px;
     text-align : center;
     font-size: 25px;
+    font-family: "futurand-bold";
 }
 
 .header-text {
@@ -530,7 +602,7 @@ header {
     margin-top:10px;
     align-items: center;
     min-width: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
 
 #about-me-text {

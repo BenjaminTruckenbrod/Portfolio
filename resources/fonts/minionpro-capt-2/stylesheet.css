@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('MinionPro-Capt.woff2') format('woff2'),
+        url('MinionPro-Capt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
