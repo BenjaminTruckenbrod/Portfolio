@@ -52,6 +52,7 @@ header {
     max-width: 577px;
     font-size: 75px;
     padding: 10px;
+    padding-left: 0px;
     border-style: none;
     letter-spacing: .3rem;
     font-family: "futurand-bold";
