@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     margin-top: 20px;
     align-items: baseline;
     width: 90%;
@@ -172,7 +172,7 @@ margin-left: 0px;
     height: 525px;
     width: 90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     /* margin-bottom: 60px; */
 
 }
