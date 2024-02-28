@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FuturaND-Bold';
+    src: url('fonts/futura-nd-bold.eot');
+    src: url('fonts/futura-nd-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura-nd-bold.woff2') format('woff2'),
+         url('fonts/futura-nd-bold.woff') format('woff'),
+         url('fonts/futura-nd-bold.ttf')  format('truetype'),
+         url('fonts/futura-nd-bold.svg#FuturaND-Bold') format('svg');
+}

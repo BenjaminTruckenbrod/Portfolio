@@ -55,8 +55,8 @@ header {
     padding-left: 0px;
     border-style: none;
     letter-spacing: .3rem;
-    font-family: "futurand-bold";
-    /* font-weight: 400; */
+    /* font-family: "futurand-bold"; */
+    font-family: 'FuturaND-Bold';
     font-style: normal;
 }
 
@@ -87,6 +87,16 @@ a {
 }
 
 @font-face {
+    font-family: 'FuturaND-Bold';
+    src: url('fonts/futura-nd-bold.eot');
+    src: url('fonts/futura-nd-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura-nd-bold.woff2') format('woff2'),
+         url('fonts/futura-nd-bold.woff') format('woff'),
+         url('fonts/futura-nd-bold.ttf')  format('truetype'),
+         url('fonts/futura-nd-bold.svg#FuturaND-Bold') format('svg');
+}
+
+@font-face {
     font-family: 'OCR A';
     src: url("resources/fonts/webfontkit-OCR-A/ocr_a_std_regular-webfont.woff") format("woff");
 }
@@ -107,13 +117,6 @@ a {
     
     }
 
-@font-face {
-    font-family: 'futurand-bolduploaded_file';
-    src: url('futura-nd-bold-webfont.woff2') format('woff2'),
-            url('futura-nd-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'minion_procaption';
@@ -180,7 +183,7 @@ margin-left: 0px;
 #about-me-long-container{
     display: flex;
     height: auto;
-    max-width: 100%;
+    max-width: 90%;
     /* align-items: center; */
     /* width:90%; */
     justify-content: center;
@@ -503,7 +506,6 @@ body{
     margin-bottom: 10px;
     text-align : center;
     font-size: 25px;
-    /* font-family: "futurand-bold"; */
 }
 
 .header-text {
