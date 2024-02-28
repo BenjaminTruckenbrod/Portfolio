@@ -558,7 +558,8 @@ body{
 }
 
 #read-more{
-    margin:auto
+    margin:auto;
+    justify-content: center;
 }
 
 #crop-container {
@@ -653,6 +654,7 @@ hr {
 #icons{
     width: 39%;
     margin: auto;
+    text-align: center;
 }
 
 #github{
