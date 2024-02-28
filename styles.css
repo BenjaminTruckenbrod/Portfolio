@@ -173,7 +173,7 @@ margin-left: 0px;
 #about-me-container{
     display: flex;
     height: 525px;
-    /* width: 90%; */
+    width: 90%;
     margin: auto;
     justify-content: center;
     /* margin-bottom: 60px; */
@@ -539,7 +539,7 @@ body{
 }
 
 #about-me{
-    width: 100%;
+    width: 90%;
     padding: 0px;
     min-width: 0;
     margin: auto;
