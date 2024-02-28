@@ -422,10 +422,11 @@ transition: all .4s ease;
 
 #read-more:hover {
     /* background-color: white; */
-    border-color:  #647b7d;
-    color:  #acd9dd;
-    transition: all .4s ease;
-}
+    /* border-color:  #647b7d;
+    color:  black;
+    transition: all .4s ease;*/
+    text-decoration: underline;
+} 
 
 #more-projects {
     font-size: 20px;
@@ -433,8 +434,8 @@ transition: all .4s ease;
     height: 40px;
     width: 150px;
     color: white;
-    border-style: solid;
-    border-color: white;
+    /* border-style: solid; */
+    /* border-color: white; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -442,8 +443,12 @@ transition: all .4s ease;
 }
 
 #more-projects:hover {
-    color: black;
-    background-color: white;
+    /* color: black;
+    background-color: white; */
+    /* border-color:  #647b7d;
+    color:  #353A34;
+    transition: all .4s ease; */
+    text-decoration: underline;
 }
 
 #projects-button-container{
