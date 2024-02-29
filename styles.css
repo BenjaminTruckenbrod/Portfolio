@@ -411,17 +411,21 @@ transition: all .4s ease;
     transition: all .4s ease;
 }
 
+.flex{
+    display:flex;
+}
+
 #read-more {
     display: flex;
     height: 30px;
-    width: 100px;
+    /* width: 100px; */
     color: white;
-    border-style: solid;
-    border-color: white;
-
-    justify-content: left;
+    /* border-style: solid;
+    border-color: white; */
+    justify-content: center;
     transition: all .4s ease;
-    border-width: 1px;
+    /* border-width: 1px; */
+    font-size: .9rem;
 
 }
 
