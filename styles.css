@@ -88,12 +88,12 @@ a {
 
 @font-face {
     font-family: 'FuturaND-Bold';
-    src: url('fonts/futura-nd-bold.eot');
-    src: url('fonts/futura-nd-bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/futura-nd-bold.woff2') format('woff2'),
-         url('fonts/futura-nd-bold.woff') format('woff'),
-         url('fonts/futura-nd-bold.ttf')  format('truetype'),
-         url('fonts/futura-nd-bold.svg#FuturaND-Bold') format('svg');
+    src: url('resources/fonts/Futura/fonts/futura-nd-bold.eot');
+    src: url('resources/fonts/Futura/fonts/futura-nd-bold.eot?#iefix') format('embedded-opentype'),
+         url('resources/fonts/Futura/fonts/futura-nd-bold.woff2') format('woff2'),
+         url('resources/fonts/Futura/fonts/futura-nd-bold.woff') format('woff'),
+         url('resources/fonts/Futura/fonts/futura-nd-bold.ttf')  format('truetype'),
+         url('resources/fonts/Futura/fonts/futura-nd-bold.svg#FuturaND-Bold') format('svg');
 }
 
 @font-face {
@@ -486,6 +486,13 @@ footer {
     display:none
 } */
 
+.spacer{
+    border-width: 0px;
+    margin: 0px !important;
+}
+
+.height-1{height: .2rem;}
+
 @media screen and (max-width: 481px){
 
     .crop-container-mobile{
@@ -500,6 +507,11 @@ body{
 #my-initials {
     display: block;
     font-size: 34px;
+}
+
+.width-90{
+    width: 90%;
+    margin: auto;
 }
 
 #my-name {
