@@ -48,6 +48,8 @@ header {
     cursor:pointer;
 }
 
+.bold{font-weight: bold;}
+
 #my-name {
     max-width: 577px;
     font-size: 75px;
